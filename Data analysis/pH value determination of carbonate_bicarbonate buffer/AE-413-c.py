@@ -32,19 +32,12 @@ ratio_smooth = power_law(pH_smooth, *popt)
 
 # Create the plot
 plt.figure(figsize=(10, 6))
-plt.scatter(data['pH'], data['ratio'], alpha=0.5, label='Experimental Data')
-plt.plot(pH_smooth, ratio_smooth, 'r-', label='Power Law Fit')
+plt.scatter(data['pH'], data['ratio'], label='Experimental Data', color='blue')
+plt.plot(pH_smooth, ratio_smooth, 'r-', label='Power Law Fit', color='green')
 
-plt.xlabel('pH')
-plt.ylabel('Ratio')
-plt.title('pH vs Ratio Relationship with Power Law Fit')
+plt.xlabel('pH-value')
+plt.ylabel('Bicrabonate / carbonate ratio / -')
 plt.legend()
-plt.grid(True, alpha=0.3)
-
-# Add fitted equation parameters
-equation = f'ratio = {popt[0]:.2e} × pH^({popt[1]:.2f}) + {popt[2]:.2f}'
-plt.text(0.05, 0.95, equation, transform=plt.gca().transAxes, 
-         bbox=dict(facecolor='white', alpha=0.8))
 
 # Calculate R-squared
 residuals = data['ratio'] - power_law(data['pH'], *popt)
@@ -52,14 +45,8 @@ ss_res = np.sum(residuals ** 2)
 ss_tot = np.sum((data['ratio'] - np.mean(data['ratio'])) ** 2)
 r_squared = 1 - (ss_res / ss_tot)
 
-plt.text(0.05, 0.89, f'R² = {r_squared:.3f}', transform=plt.gca().transAxes,
-         bbox=dict(facecolor='white', alpha=0.8))
-
-# Print the fitted parameters
-print(f"Fitted parameters:")
-print(f"a (scale factor): {popt[0]:.2e}")
-print(f"b (power): {popt[1]:.2f}")
-print(f"c (offset): {popt[2]:.2f}")
-print(f"R-squared: {r_squared:.3f}")
+# equation = f'ratio = {popt[0]:.2e} × pH^({popt[1]:.2f}) + {popt[2]:.2f}'
+# plt.text(0.05, 0.95, equation, transform=plt.gca().transAxes, 
+#          bbox=dict(facecolor='white', alpha=0.8))
 
 plt.show()
