@@ -2,16 +2,16 @@
 
 This directory contains the experimental data used for the publication.
 
-`Accuracy of liquid handling` contains a picture of the setup, the program from the Chemspeed robot, further procedure information and the Excel sheet used for documentation and evaluation
+`accuracy_liquid_handling` contains a picture of the setup, the program from the Chemspeed robot, further procedure information and the Excel sheet used for documentation and evaluation
 
-`Constancy of power supply` contains pictures of the used setup, as well as the Excel sheet used for documentation and evaluation
+`Tbuffer_testing` contains the data from the automated irradiation experiments, the settings of the oxygen detector, the excel sheets used for preparing the stock solutions and an overview of the parameters of each experiment as excel sheet of the experiments used for testing different buffers
 
-`Determination of power output of 470 nm LED` contains a picture of the setup, the raw data as picture and the formatted data as excel sheet and .csv
+`leakage` contains pictures of the septum and setup and oxygen measurement data for different numbers of punctures, as well as the settings of the oxygen detector
 
-`Experiments for reproducibility and screening` contains the data from the automated irradiation experiments, the settings of the oxygen detector, the excel sheets used for preparing the stock solutions and an overview of the parameters of each experiment as excel sheet for the experiments used for the reproducibility tests and parameter screening
+`output_power_LED` contains a picture of the setup, the raw data as picture and the formatted data as excel sheet and .csv
 
-`Leakage tests` contains pictures of the septum and setup and oxygen measurement data for different numbers of punctures, as well as the settings of the oxygen detector
+`pH_value_buffer` contains pictures of the setup and raw data nd the formatted data as excel sheet and .csv
 
-`pH value determination of carbonate_bicarbonate buffer` contains pictures of the setup and raw data nd the formatted data as excel sheet and .csv
+`photocatalysis_runs` contains the data from the automated irradiation experiments, the settings of the oxygen detector, the excel sheets used for preparing the stock solutions and an overview of the parameters of each experiment as excel sheet for the experiments used for the reproducibility tests and parameter screening
 
-`Testing of other buffer systems` contains the data from the automated irradiation experiments, the settings of the oxygen detector, the excel sheets used for preparing the stock solutions and an overview of the parameters of each experiment as excel sheet of the experiments used for testing different buffers
+`stability_power_supply` contains pictures of the used setup, as well as the Excel sheet used for documentation and evaluation
