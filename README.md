@@ -20,7 +20,7 @@ We actively encourage others to work on this interesting new avenue in automatiz
 
 # Dependencies
 
-Python code (Python >3.7) requires the following libraries: numba, numpy, scipy, matplotlib, pandas, pathlib, csv and pymcr. #Jacob, check if other packages are needed for hte_streamlit or differnet py version
+Python code (Python >3.7) requires the following libraries: numba, numpy, scipy, matplotlib, pandas, pathlib, csv and pymcr. 
 
 
 # License
