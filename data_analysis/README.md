@@ -2,14 +2,14 @@
 
 This directory contains the labjournal entries.
 
-`Accuracy of liquid handling` contains the Excel sheet used for documentation and evalutaion
+`accuracy_liquid_handling` contains the Excel sheet used for documentation and evalutaion
 
-`Constancy of power supply` contains the Excel sheet used for documentation and evalutaion
+`leakage` contains the python script for the plotting of the oxygen leakage
 
-`Determinaiton of power output of 470 nm LED` contains fotos f the setup
+`output_power_LED` contains the pythin script for fitting of the power law function and the conversion of the irradiance in mW cm-2 to W m-2
 
-`Leakage tests` contains the python scripts for the plotting of the oxygen leakage
+`pH_value_buffer` contains the python script for fitting of the power law function and the python script for the calculation of the buffer ratio at a given pH value
 
-`pH value determination of carbonate_bicarbonate buffer` contains pictures of the setup and raw data nd the formatted data as excel sheet and .csv
+`photocatalysis_runs` contains the python script and excel sheet used for plotting and evalutaion of the reactions under standart conditions, as well as the csv files used for plotting of the reactions under standartd conditions
 
-`Reproducibility data evalutaion` contains the python script and excel sheet used for plotting and evalutaion of the reactions under standart conditions
+`stability_power_supply` contains the Excel sheet used for documentation and evalutaion
