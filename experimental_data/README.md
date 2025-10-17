@@ -4,7 +4,9 @@ This directory contains the experimental data used for the publication.
 
 `accuracy_liquid_handling` contains a picture of the setup, the program from the Chemspeed robot, further procedure information and the Excel sheet used for documentation and evaluation
 
-`Tbuffer_testing` contains the data from the automated irradiation experiments, the settings of the oxygen detector, the excel sheets used for preparing the stock solutions and an overview of the parameters of each experiment as excel sheet of the experiments used for testing different buffers
+`autocatalytic deactivation` contains the oxygen measurement and UV/Vis data and the settings of the oxygen detector
+
+`buffer_testing` contains the data from the automated irradiation experiments, the settings of the oxygen detector, the excel sheets used for preparing the stock solutions and an overview of the parameters of each experiment as excel sheet of the experiments used for testing different buffers
 
 `leakage` contains pictures of the septum and setup and oxygen measurement data for different numbers of punctures, as well as the settings of the oxygen detector
 
