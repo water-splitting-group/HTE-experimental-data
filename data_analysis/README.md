@@ -4,6 +4,8 @@ This directory contains the labjournal entries.
 
 `accuracy_liquid_handling` contains the Excel sheet used for documentation and evalutaion
 
+`autocatalytic_deactivation` contains the python scripts for the plotting of the oxygen measurement and UV/Vis data
+
 `leakage` contains the python script for the plotting of the oxygen leakage
 
 `output_power_LED` contains the pythin script for fitting of the power law function and the conversion of the irradiance in mW cm-2 to W m-2

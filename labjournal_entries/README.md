@@ -4,6 +4,8 @@ This directory contains the labjournal entries.
 
 `accuracy_liquid_handling` contains the labjournal entry for the accuracy determination of the liquid handler of the used ChemSpeed
 
+`autocatalytic_deactivation` contains the labjournal entries for the manual experiments to investigate the autocatalytic deactivation of the reaction system
+
 `buffer_testing` contains the labjournal entries for preparation of the stock solutions and the automated irradaition experiments for the testing of different buffers
 
 `leakage` contains the labjournal entries for the test of the leakage rate after different numbers of punctures through the septum
